@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Menu from "./components/menu/Menu";
+import {elements} from "./resources/menu_elt"
 
 ReactDOM.render(
   <React.StrictMode>
+    <Menu elements={ elements }/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

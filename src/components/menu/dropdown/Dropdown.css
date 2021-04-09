@@ -1,0 +1,44 @@
+.dropdown {
+    display: block;
+    width: 100%;
+    margin-top: 0rem;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.displayed {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.float_clear {
+    float: none;
+    clear: both;
+}
+
+.dropdown_elt {
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.dropdown_elt a {
+    display: block;
+    width: 15rem;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown_elt a:hover {
+    background-color: white;
+    color: #282c34;
+}
+
+.dropdown_elt:visited {
+    color: white;
+}

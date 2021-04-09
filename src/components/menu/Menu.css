@@ -1,0 +1,30 @@
+.menu {
+    width: 100%;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu_btn {
+    width: 2rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem;
+    color: white;
+    background-color: transparent;
+    outline: 0;
+    border-radius: 50rem;
+    border: 0.1rem solid white;
+    box-shadow: 0 0.15rem #999;
+}
+
+.menu_btn:active {
+    box-shadow: 0 0.12rem #666;
+    transform: translateY(0.1rem);
+}
+
+.menu_btn:hover {
+    background-color: white;
+    color: #282c34;
+    border-color: #282c34;
+}
