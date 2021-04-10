@@ -4,8 +4,16 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.logo {
+    display: inline-block;
+    margin-left: 3rem;
+    vertical-align: middle;
+}
+
 .menu_btn {
+    display: inline-block;
     width: 2rem;
+    height: 2rem;
     margin-left: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;

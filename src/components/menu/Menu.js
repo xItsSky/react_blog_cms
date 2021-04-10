@@ -1,6 +1,7 @@
 import React from "react";
 import Dropdown from "./dropdown/Dropdown";
 import './Menu.css'
+import logo from '../../resources/logo.svg';
 
 class Menu extends React.Component {
     constructor(props) {
@@ -18,11 +19,19 @@ class Menu extends React.Component {
         console.log(">" + this.state.displayed);
     }
 
+    getButtonText() {
+        if(!this.state.displayed)
+            return "☰";
+        else
+            return " X ";
+    }
+
     render() {
         return (
             <div className="menu">
                 <div>
-                    <button onClick={ this.setDisplayState } className="menu_btn" >☰</button>
+                    <button onClick={ this.setDisplayState } className="menu_btn" >{ this.getButtonText() }</button>
+                    <img src={logo} alt="logo" className="logo" />
                 </div>
                 <div className="left_panel">
                     <Dropdown elements={ this.props.elements } displayed={ this.state.displayed } />

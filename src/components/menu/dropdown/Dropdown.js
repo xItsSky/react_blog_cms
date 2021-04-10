@@ -13,7 +13,9 @@ function Dropdown(props) {
     return (
         <ul className={ getClass(displayed) }>
             { elements.map((element) =>
-                <li key={ element.id } className="dropdown_elt"><a href={ element.redirect } className="dropdown_elt_text">{ element.name } </a></li>
+                <li key={ element.name + '_menu' } className="dropdown_elt">
+                    <a href={ element.redirect } className="dropdown_elt_text">{ element.name } </a>
+                </li>
             ) }
             <div className="float_clear" />
         </ul>

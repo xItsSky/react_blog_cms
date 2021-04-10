@@ -30,13 +30,15 @@
     display: block;
     width: 15rem;
     padding: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
     color: white;
     text-decoration: none;
+    border-bottom: 0.3rem solid transparent;
 }
 
 .dropdown_elt a:hover {
-    background-color: white;
-    color: #282c34;
+    border-bottom: 0.3rem solid white;
 }
 
 .dropdown_elt:visited {
