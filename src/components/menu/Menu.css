@@ -6,7 +6,8 @@
 
 .logo {
     display: inline-block;
-    margin-left: 3rem;
+    width: 7rem;
+    margin: 0.5rem 0.5rem 0.5rem 3rem;
     vertical-align: middle;
 }
 
